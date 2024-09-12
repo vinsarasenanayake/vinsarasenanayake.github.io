@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Serenity Health Care - Pharmacy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!-- Header section with logo and navigation menu -->
+    <header>
+        <!-- Logo with link to home page -->
+        <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+        <!-- Navigation menu -->
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consulting.html">Consulting</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="journey.html">Journey</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content of the page -->
+    <main class="mainsection">
+        <!-- Order Page header -->
+        <div class="pharmacy">
+            <h1>Visit Our Store And Select</h1><br>
+        </div>
+        <!-- Order Page Introduction Paragraph -->
+        <p class="herop">Our pharmacy provides easy access to medications and health products, with expert pharmacists offering personalized advice and ensuring accurate, confidential service.</p>
+        <br><br>
+        <!-- Registration Form Section -->
+        <section class="form" id="register">
+            <h2>Order Now Form</h2>
+            <form action="#" method="post">
+                <!-- Name Input -->
+                <div class="input">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <!-- Email Input -->
+                <div class="input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <!-- Phone Input -->
+                <div class="input">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <!-- Order Date Input -->
+                <div class="input">
+                    <label for="dob">Purchasing Date:</label>
+                    <input type="date" id="dob" name="dob" required>
+                  </div>
+                <!-- Payment Method Selection -->
+                <div class="input">
+                    <label for="payment">Payment Method:</label>
+                    <select id="payment" name="payment" required>
+                        <option value="" disabled selected>Select a payment method</option>
+                        <option value="visa_mastercard">Visa/Mastercard</option>
+                        <option value="cash_on_delivery">Cash on Delivery</option>
+                    </select>
+                </div>
+                <!-- Medicine Selection section-->
+                <div class="input">
+                    <label for="medicine">Select Your Medicine:</label>
+                    <select id="medicine" name="medicine" required>
+                        <option value="">Tylenol Extra Strength (Acetaminophen)</option>
+                        <option value="">Advil (Ibuprofen)</option>
+                        <option value="">Claritin (Loratadine)</option>
+                        <option value="">Neosporin (Antibiotic Ointment)</option>
+                        <option value="">Thermometer (Digital)</option>
+                        <option value="">Cetaphil Gentle Skin Cleanser</option>
+                        <option value="">Similac Pro-Advance Infant Formula</option>
+                        <option value="">Mucinex (Guaifenesin)</option>
+                        <option value="">Band-Aid Flexible Fabric Bandages</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+        <!-- Order Button and Message Box -->
+        <label for="hiddenchkbox" class="order-btn">Order Now</label>
+        <input type="checkbox" id="hiddenchkbox" class="hiddenchkbox">
+        <div class="modal">
+            <div class="message-box">
+                <label for="hiddenchkbox" class="close-btn">&times;</label>
+                <h2>Your Order Confirmation</h2>
+                <p>Thank you for your order! We’re excited to let you know that your item will be on its way via post and should arrive within 2-3 days.</p>
+            </div>
+        </div>
+    </main><br>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+            <!-- Footer Content Container -->
+            <div class="footer-content">
+                <!-- Logo with link to home page -->
+                <div class="footer-section">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <!-- Paragraph Section -->
+                <div class="footer-section">
+                    <p>We actively participate in and sponsor various outreach initiatives designed to promote health and well-being. From free health screenings to educational workshops, our programs aim to support and engage with the community.</p>
+                </div>
+                <!-- Contact Information Section -->
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Phone: (011) 2 456 789</li>
+                        <li>Email: serenityhealthcare@gmail.com</li>
+                        <li>Location: 88, De Mel road, Colombo, Sri Lanka</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Footer Copyright -->
+            <div class="footer-copyright">
+                <p>&copy; 2024 Serenity Health Care. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer Section -->
+</body>
+</html>
